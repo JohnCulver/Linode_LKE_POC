@@ -1,0 +1,25 @@
+replicaCount: 2
+
+image:
+  repository: nginx
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: LoadBalancer
+  port: 80
+
+labels:
+  app: hello-world
+
+config:
+  html: |
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>Hello World</title>
+    </head>
+    <body>
+    <h1>Hello World from Nginx!</h1>
+    </body>
+    </html>

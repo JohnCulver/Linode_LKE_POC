@@ -32,3 +32,8 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# This can be a file for any local env vars that you don't want checked into VC
+local_env_vars.sh
+# if you store the kubeconfig in the project
+kubeconfig

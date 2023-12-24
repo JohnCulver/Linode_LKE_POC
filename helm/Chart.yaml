@@ -1,0 +1,4 @@
+apiVersion: v2
+name: hello-world
+description: LKE POC
+version: 0.1.0

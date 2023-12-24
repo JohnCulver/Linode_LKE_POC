@@ -1,0 +1,1 @@
+helm install hello-world .
